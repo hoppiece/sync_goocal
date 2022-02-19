@@ -15,7 +15,7 @@
 - 組織のカレンダーに新たにイベントが追加されたら, 随時コピーを実施
 
 
-する機能を実現する.
+する機能を自動で実現する.
 具体的には, [`code.gs`](https://github.com/hoppiece/sync_goocal/blob/main/code.gs) の必要箇所を書き換えて 自分の Drive の GAS に書き, 定時実行のトリガーを設定する.
 
 ## How to run
