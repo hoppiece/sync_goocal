@@ -54,7 +54,10 @@ function doesEventAlreadyExist(calendar, event){
 function doesTitleContainKeywords(title, keywords){
   let is_match = false
   for(let i=0; i<keywords.length; i++){
-    if (title.match(keywords[i])){
+    if (!keywords[i]){
+      is_match = false; // true にすると, キーワードに空文字列が含まれる場合にすべてのイベントがコピーされる.
+    }
+    else if (title.match(keywords[i])){
       is_match = true;
     }
   }
