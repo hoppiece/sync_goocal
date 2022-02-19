@@ -12,7 +12,7 @@
 
 ## How to run
 
-1. 新規 Google Apps Script プロジェクトを作成
+1. Google Drive のトップ画面から, 新規 Google Apps Script プロジェクトを作成
 
 <img width="800" alt="スクリーンショット 2022-02-19 22 50 38" src="https://user-images.githubusercontent.com/38513250/154803650-56bc91f9-2113-429f-9bc0-471d389ae2ab.png">
 
