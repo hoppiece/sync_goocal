@@ -16,7 +16,7 @@
 
 
 する機能を実現する.
-具体的には, [`code.gs`](https://github.com/hoppiece/sync_goocal/blob/main/code.gs) の必要箇所を書き換えて 自分の Drive の GAS に書き, 定時実行のトリガーを設定することで上記動作を実現する.
+具体的には, [`code.gs`](https://github.com/hoppiece/sync_goocal/blob/main/code.gs) の必要箇所を書き換えて 自分の Drive の GAS に書き, 定時実行のトリガーを設定する.
 
 ## How to run
 
